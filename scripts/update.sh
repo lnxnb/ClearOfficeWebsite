@@ -13,6 +13,4 @@ if [ "$LOCAL" = "$REMOTE" ]; then
 fi
 
 git pull origin main
-npm ci --omit=dev
-npm run build
 rsync -av --delete ./out/ ~/public_html/
