@@ -1,0 +1,168 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme {
+  --letter-spacing-tightest: -0.02em;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-satoshi: var(--font-satoshi);
+  --color-primary: #0071e3;
+  --color-light-blue: #b8dbff;
+  --color-dark-blue: #011b36;
+  --color-card-hover: #f5f9fe;
+  --color-hover-blue: #002b56;
+}
+/* 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 113, 227, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(0, 113, 227, 0.03) 1px, transparent 1px);
+
+  background-size: 40px 40px, 40px 40px, 100% 100%;
+  z-index: 0;
+}
+
+.grid1-background {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+      to right,
+      rgb(1, 32, 64) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgb(1, 32, 64) 1px, transparent 1px);
+  background-size: 50px 50px;
+  z-index: 0;
+}
+
+.grid1-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.02) 100%,
+    rgba(255, 255, 255, 0.01) 100%
+  );
+  z-index: 1;
+}
+@keyframes cornerrightOrbit {
+  0% {
+    bottom: -150px;
+    right: -148px;
+  }
+  25% {
+    bottom: -150px;
+    right: calc(100% - 233px + 148px);
+  }
+  50% {
+    bottom: calc(100% - 233px + 150px);
+    right: calc(100% - 233px + 148px);
+  }
+  75% {
+    bottom: calc(100% - 233px + 150px);
+    right: -148px;
+  }
+  100% {
+    bottom: -150px;
+    right: -148px;
+  }
+}
+
+.corner-orbit-right {
+  position: absolute;
+  width: 233px;
+  height: 233px;
+  border-radius: 50%;
+  background-color: #0071e3;
+  animation: cornerrightOrbit 9s ease-in-out infinite;
+  filter: blur(80px);
+  box-shadow: 0 0 200px rgba(0, 113, 227, 0.5);
+}
+
+@keyframes cornerleftOrbit {
+  0% {
+    top: -150px;
+    left: -148px;
+  }
+  25% {
+    top: -150px;
+    left: calc(100% - 233px + 148px);
+  }
+  50% {
+    top: calc(100% - 233px + 150px);
+    left: calc(100% - 233px + 148px);
+  }
+  75% {
+    top: calc(100% - 233px + 150px);
+    left: -148px;
+  }
+  100% {
+    top: -150px;
+    left: -148px;
+  }
+}
+
+.corner-orbit-left {
+  position: absolute;
+  width: 233px;
+  height: 233px;
+  border-radius: 50%;
+  background-color: #0071e3;
+  animation: cornerleftOrbit 9s ease-in-out infinite;
+  filter: blur(80px);
+  box-shadow: 0 0 200px rgba(0, 113, 227, 0.5);
+}
+.menu__icon {
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+}
+
+.line {
+  transition: transform 0.18s cubic-bezier(0.04, 0.04, 0.12, 0.96),
+    opacity 0.15s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1s;
+  transform-origin: center;
+}
+
+.line.top {
+  transform-origin: 50% 50%;
+}
+
+.line.bottom {
+  transform-origin: 50% 50%;
+}
+
+.menu__icon.active .line.top {
+  transform: rotate(45deg) translateY(5.5px);
+}
+
+.menu__icon.active .line.bottom {
+  transform: rotate(-45deg) translateY(-5.5px);
+}
