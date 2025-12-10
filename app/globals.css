@@ -166,3 +166,14 @@ body {
 .menu__icon.active .line.bottom {
   transform: rotate(-45deg) translateY(-5.5px);
 }
+
+.bg-home-cta {
+  background-image: url("/images/home/cta.webp");
+  background-position: center 20%;
+  background-repeat: no-repeat;
+}
+
+.bg-home-grid {
+  background-image: url("/images/home/grid.webp");
+  background-repeat: no-repeat;
+}

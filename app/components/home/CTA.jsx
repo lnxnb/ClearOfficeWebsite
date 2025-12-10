@@ -2,7 +2,7 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <div className="h-[422px] relative w-full bg-[url('/images/home/cta.webp')] bg-cover bg-[center_20%] flex justify-center items-center px-4">
+    <div className="h-[422px] relative w-full bg-home-cta bg-cover flex justify-center items-center px-4">
       <div className=" absolute inset-0 bg-primary/70"></div>
       <div className="flex flex-col gap-8 items-center z-10">
         <div className="flex flex-col gap-2">

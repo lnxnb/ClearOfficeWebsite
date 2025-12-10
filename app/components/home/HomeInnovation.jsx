@@ -61,7 +61,7 @@ const HomeInnovation = () => {
     <div className="bg-dark-blue py-12 md:py-16 lg:py-20 xl:py-24 relative z-30 p-4">
       {/* <div
         className="absolute inset-x-0 inset-y-5 
-    bg-[url('/images/home/grid.webp')] 
+    bg-home-grid 
     bg-cover bg-no-repeat -z-3"
       ></div>
 

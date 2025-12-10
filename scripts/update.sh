@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-cd ~/myrepo
+cd ~/ClearOfficeWebsite
 git fetch origin main
 
 LOCAL=$(git rev-parse HEAD)
