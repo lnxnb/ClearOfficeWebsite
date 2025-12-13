@@ -117,7 +117,7 @@ const FormDetails = () => {
             <div className="flex w-full flex-col gap-2">
               <textarea
                 className="py-5 resize-none px-6 bg-white font-satoshi drop-shadow-[0_4px_20px_rgba(98,140,62,0.04)] text-base/[150%] rounded-lg border border-neutral-200 outline-none w-full placeholder:text-neutral-400"
-                placeholder="Massage here"
+                placeholder="Message here"
                 rows={6}
                 name="message"
                 aria-invalid={errors.message ? "true" : "false"}

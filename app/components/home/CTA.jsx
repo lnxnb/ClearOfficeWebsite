@@ -7,11 +7,10 @@ const CTA = () => {
       <div className="flex flex-col gap-8 items-center z-10">
         <div className="flex flex-col gap-2">
           <h1 className="text-white font-satoshi font-bold text-4xl md:text-5xl max-lg:text-center lg:text-5xl/[130%] tracking-[-2%]">
-            Ready to Empower Your Enterprise?
+            Ready to modernize your operations with AI??
           </h1>
           <p className="text-white font-satoshi text-lg/[150%] max-lg:text-center">
-            We believe in a future where intelligent automation is the
-            cornerstone of every successful enterprise.
+            Start with a focused assessment to identify the highest-ROI automations and AI use cases for your business.
           </p>
         </div>
 
@@ -21,7 +20,7 @@ const CTA = () => {
 hover:bg-primary/10 hover:text-white hover:ring hover:ring-white hover:shadow-[0_6px_20px_rgba(0,113,227,0.18)]
   hover:scale-[1.03]"
         >
-          Begin your transformation
+          Get your AI roadmap
         </a>
       </div>
     </div>

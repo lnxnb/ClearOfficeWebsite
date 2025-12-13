@@ -7,27 +7,27 @@ const HomeInnovation = () => {
   const slides = [
     {
       id: 1,
-      text: "10+",
-      subtext: "Years of Industry Experience",
+      text: "3+",
+      subtext: "Years Delivering Automation & Analytics Solutions",
       image: "/images/home/approach-1.webp",
     },
 
     {
       id: 2,
       text: "30+",
-      subtext: "Successful Automation & AI Projects",
+      subtext: "Production deployments",
       image: "/images/home/approach-2.webp",
     },
     {
       id: 3,
-      text: "99%",
-      subtext: "Process Accuracy Through RPA",
+      text: "99%+",
+      subtext: "Accuracy through RPA (use-case dependent) ",
       image: "/images/home/approach-3.webp",
     },
     {
       id: 4,
       text: "5+",
-      subtext: "Serving Major Industries",
+      subtext: "Industries served",
       image: "/images/home/approach-4.webp",
     },
   ];
@@ -80,20 +80,20 @@ const HomeInnovation = () => {
               </h1>
             </div>
             <h1 className="font-satoshi font-bold text-4xl md:text-5xl max-lg:text-center lg:text-[56px]/[130%] tracking-[-2%] text-white">
-              Innovation That Powers{" "}
-              <span className="text-primary">Your Growth</span>
+              Purpose-built AI for{" "}
+              <span className="text-primary">real operations</span>
             </h1>
           </div>
           <div className="flex flex-col gap-6 lg:w-2/6 max-lg:text-center">
             <p className="text-neutral-200 text-base md:text-lg/[150%] font-satoshi">
-              Our solutions help organizations reduce manual workload, eliminate
-              inefficiencies, and make data-driven decisions with confidence.
+                  We partner with leadership teams to modernize workflows, improve visibility, 
+                  and deliver measurable outcomes—cost reduction, cycle-time improvements, and better service quality. 
             </p>
             <a
               href="/contact-us.html"
               className="bg-white md:max-lg:self-center md:w-fit text-base/[130%] tracking-[-2%] font-bold  font-satoshi text-primary px-6 py-4 rounded-full cursor-pointer  transition-all duration-300 hover:bg-white/90 hover:shadow-[0_8px_20px_rgba(0,113,227,0.35)] hover:scale-[1.03]"
             >
-              Transform your business
+              Explore what's possible
             </a>
           </div>
         </div>

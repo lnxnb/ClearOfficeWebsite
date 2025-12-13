@@ -7,35 +7,35 @@ const OurApproach = () => {
     {
       title: "Discovery & Strategy",
       subTitle:
-        "We begin with a comprehensive workshop to understand your organization, objectives, and operational challenges. We collaborate closely to create a strategic roadmap, identifying key opportunities for analytics, automation, and AI.",
+        "Map workflows, pain points, and ROI. Define the best opportunities for automation, analytics, and AI.",
       img: "/images/home/approach-1.webp",
       icon: oneSvg,
     },
     {
       title: "Solution Design & Prototyping",
       subTitle:
-        "With a clear strategy, we design the architecture for your custom solution. We develop prototypes and proof-of-concepts to validate our approach and give you a tangible feel for the final product before full-scale development.",
+        "Design the architecture and validate quickly with a prototype—so you see value before full buildout.",
       img: "/images/home/approach-2.webp",
       icon: twoSvg,
     },
     {
       title: "Agile Development & Implementation",
       subTitle:
-        "Our in-house experts use an agile methodology to build and implement your solution. This iterative approach ensures you see consistent progress and allows for flexibility to adapt to new insights throughout the project.",
+        "Iterative delivery with clear milestones, stakeholder feedback, and real operational testing.",
       img: "/images/home/approach-4.webp",
       icon: threeSvg,
     },
     {
       title: "Rigorous Testing & Quality Assurance",
       subTitle:
-        "Before deployment, we conduct thorough testing to ensure your new systems are robust, secure, and perform flawlessly. We validate data accuracy, model performance, and automation reliability to guarantee a successful launch.",
+        "Performance, accuracy, and reliability testing—plus data validation and controls before go-live.",
       img: "/images/home/approach-3.webp",
       icon: fourSvg,
     },
     {
       title: "Deployment, Training & Support",
       subTitle:
-        "Once perfected, we deploy the solution into your live environment. We provide comprehensive training to your team and offer ongoing support to ensure seamless adoption and continuous, long-term value from your investment.",
+        "Deploy into your environment, train your team, and provide ongoing optimization and support.",
       img: "/images/home/approach-5.webp",
       icon: fiveSvg,
     },
@@ -53,22 +53,19 @@ const OurApproach = () => {
                 </h1>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-[56px]/[130%] tracking-[-2%] font-satoshi max-lg:text-center font-bold text-neutral-800">
-                Our Approach to <br />{" "}
-                <span className="text-primary">Transforming Your Business</span>
+                A proven approach <br />{" "}
+                <span className="text-primary">from strategy to production.</span>
               </h1>
               <p className="font-satoshi text-base/[150%] text-neutral-600 max-lg:text-center">
-                We follow a structured, data-driven approach that ensures every
-                solution delivers measurable impact. By aligning automation,
-                analytics, and AI with your business goals, we help you
-                streamline operations, enhance decision-making, and unlock
-                long-term growth.
+                    We don’t ship experiments. We deliver secure, 
+                    scalable solutions your team can adopt and support. 
               </p>
             </div>
             <a
               href="/contact-us.html"
               className="bg-primary md:max-lg:self-center max-md:text-center md:w-fit text-base/[130%] tracking-[-2%] font-bold font-satoshi text-white px-6 py-4 rounded-full cursor-pointer  transition-all duration-300 hover:bg-primary/90 hover:shadow-[0_8px_20px_rgba(0,113,227,0.35)] hover:scale-[1.03]"
             >
-              Elevate Your Enterprise
+              Schedule a call
             </a>
           </div>
           <div

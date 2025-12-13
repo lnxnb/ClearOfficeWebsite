@@ -46,16 +46,9 @@ const Faq = () => {
               <h1 className="text-sm/[150%] text-primary font-satoshi">FAQ</h1>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-[56px]/[130%] tracking-[-2%] font-satoshi font-bold text-neutral-800 max-lg:text-center">
-              Answers to Common <br className="max-lg:hidden" />{" "}
-              <span className="text-primary">Questions</span>
+              Questions leaders ask before <br className="max-lg:hidden" />{" "}
+              <span className="text-primary">adopting AI</span>
             </h1>
-            <p className="font-satoshi text-base/[150%] text-neutral-600 max-lg:text-center">
-              Find answers to the most common questions about our services in
-              automation, AI, analytics, business intelligence, and robotic
-              process automation. Learn how ClearOffice can help your enterprise
-              streamline operations, make data-driven decisions, and achieve
-              measurable business impact.
-            </p>
           </div>
           <div className="flex flex-col gap-6 bg-white border border-neutral-200 rounded-2xl p-6 md:w-fit">
             <div className="flex flex-col gap-2">
@@ -63,14 +56,14 @@ const Faq = () => {
                 Still Have Questions?
               </h1>
               <p className="font-satoshi text-base/[150%] text-neutral-600 max-md:text-center">
-                Our team is ready to assist you with anything you need.
+                We’ll help you identify the best first use case and expected ROI. 
               </p>
             </div>
             <a
               href="/contact-us.html"
               className="bg-primary md:w-fit max-md:text-center text-base/[130%] tracking-[-2%] font-bold font-satoshi text-white px-6 py-4 rounded-full cursor-pointer  transition-all duration-300 hover:bg-primary/90 hover:shadow-[0_8px_20px_rgba(0,113,227,0.35)] hover:scale-[1.03]"
             >
-              Contact Us
+              Get in touch
             </a>
           </div>
         </div>

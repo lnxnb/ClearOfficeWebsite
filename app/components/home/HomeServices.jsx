@@ -36,7 +36,7 @@ const HomeServices = () => {
       text: "Robotic Process Automation",
       svg: aboutService1,
       hoverSubTxt:
-        "We design and implement bespoke automation solutions that eliminate repetitive tasks, reduce operational costs, and free up your team to focus on strategic initiatives.",
+        "Automate repetitive, rules-based tasks across your systems—intake, routing, reporting, reconciliations, and more. ",
       hoverImage: "/images/home/service-9.webp",
       link: "/services/robotic-process-automation.html",
     },
@@ -44,7 +44,7 @@ const HomeServices = () => {
       text: "Analytical Services",
       svg: aboutService2,
       hoverSubTxt:
-        "Unlock the power of your data. Our advanced analytics services provide deep insights into your business performance, customer behavior, and market trends, enabling you to make informed, strategic decisions.",
+        "Turn scattered data into dashboards, KPI reporting, and forecasting leaders can trust.",
       hoverImage: "/images/home/service-8.webp",
       link: "/services/analytical-services.html",
     },
@@ -52,7 +52,7 @@ const HomeServices = () => {
       text: "AI Solutions",
       svg: aboutService3,
       hoverSubTxt:
-        "Leverage our expertise in machine learning and AI to build predictive models, personalize customer experiences, and gain a significant competitive advantage in your industry.",
+        "Deploy AI for document processing, knowledge search, classification, and prediction—built with governance and security in mind.",
       hoverImage: "/images/home/service-7.webp",
       link: "/services/ai-solutions.html",
     },
@@ -81,8 +81,8 @@ const HomeServices = () => {
             </div>
 
             <h1 className="font-satoshi font-bold text-4xl md:text-5xl lg:text-[56px]/[130%] tracking-[-2%] text-neutral-800 max-lg:text-center">
-              Solutions Designed to <br />
-              <span className="text-primary">Streamline Your Operations</span>
+               Solutions built to <br />
+              <span className="text-primary">eliminate busywork and unlock insight</span>
             </h1>
           </div>
 
@@ -92,15 +92,15 @@ const HomeServices = () => {
             custom={0.25}
           >
             <p className="text-neutral-600 text-base md:text-lg/[150%] font-satoshi max-lg:text-center">
-              Our solutions help organizations reduce manual workload, eliminate
-              inefficiencies, and make data-driven decisions with confidence.
+                  We identify high-value opportunities, build secure solutions, 
+                  and measure ROI from day one. 
             </p>
 
             <a
               href="/contact-us.html"
               className="md:max-lg:self-center bg-primary md:w-fit max-md:text-center text-base/[130%] cursor-pointer tracking-[-2%] font-bold font-satoshi text-white px-6 py-4 rounded-full transition-all duration-300 hover:bg-primary/90 hover:shadow-[0_8px_20px_rgba(0,113,227,0.35)] hover:scale-[1.03]"
             >
-              Transform your business
+              Talk to an AI consultant
             </a>
           </motion.div>
         </motion.div>
